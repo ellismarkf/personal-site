@@ -4,7 +4,10 @@ import Title from './Title'
 class App extends Component {
     render() {
         return (
-            <Title />
+            <div>
+                <Title />
+                <h2>test</h2>
+            </div>
         )
     }
 }
